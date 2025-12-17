@@ -4,15 +4,6 @@ import requests
 url = input("Enter a URL to scan (e.g., https://example.com): ")
 
 
-"""# Set headers so the request don't seem as a script 
-headers = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-    "Accept": "text/html,application/xhtml+xml",
-    "Accept-Language": "fr-FR,fr;q=0.9",
-    "Accept-Encoding": "gzip, deflate"
-}
-"""
-
 # Define the security headers we're checking for
 security_headers = {
     "Content-Security-Policy": "Protects against XSS attacks",
